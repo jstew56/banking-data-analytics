@@ -1,6 +1,6 @@
 # Banking Data Analytics (Snowflake SQL)
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes anonymized banking transaction and loan data using Snowflake SQL.  
 
@@ -8,7 +8,7 @@ The objective was to simulate real-world financial analysis tasks such as custom
 
 ---
 
-## 🎯 Business Questions Addressed
+##  Business Questions Addressed
 
 - What is the average credit card balance owed by customers?
 - What does monthly cash flow look like?
@@ -18,29 +18,29 @@ The objective was to simulate real-world financial analysis tasks such as custom
 
 ---
 
-## 🧠 Key Analyses Performed
+## Key Analyses Performed
 
-### 1️⃣ Data Exploration
+### 1 Data Exploration
 - Record counts
 - Date ranges
 - Transaction type distribution
 
-### 2️⃣ Monthly Cash Flow Analysis
+### 2 Monthly Cash Flow Analysis
 - Aggregated deposits and withdrawals
 - Calculated net cash flow using CTEs
 
-### 3️⃣ Customer Credit Segmentation
+### 3 Customer Credit Segmentation
 - Used CASE statements to group customers by credit score
 - Calculated average income by segment
 
-### 4️⃣ Loan Portfolio Analysis
+### 4 Loan Portfolio Analysis
 - Grouped loans by status
 - Calculated average loan amounts
 - Identified performance trends
 
 ---
 
-## 🛠 SQL Skills Demonstrated
+## SQL Skills Demonstrated
 
 - Aggregations (COUNT, SUM, AVG)
 - CASE statements
@@ -52,11 +52,10 @@ The objective was to simulate real-world financial analysis tasks such as custom
 
 ---
 
-## 💻 Tools Used
+## Tools Used
 
 - Snowflake
 - SQL
-- GitHub
 
 ---
 

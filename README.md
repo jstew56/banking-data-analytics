@@ -16,7 +16,7 @@ What is the average credit card balance owed by customers?
 **Purpose**  
 Understand overall portfolio exposure and average customer debt level.
 
-![Average Balance Output](visuals/avg_balance.png)
+![Average Balance Output](sql/credit_card_balance_results.png)
 
 ---
 

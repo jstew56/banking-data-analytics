@@ -44,7 +44,7 @@ Which customers have more than $5,000 available credit and utilization ≤ 20%?
 **Purpose**
 Identify low-risk customers with strong credit capacity who may qualify for credit line increases or premium offers.
 
-![High Available Credit Output](visuals/high_available_credit.png)
+![High Available Credit Output](sql/utilization_20%_results.png)
 
 **Key Insight**  
 Customers with high available credit and low utilization represent high-quality expansion opportunities with minimal risk exposure.

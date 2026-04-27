@@ -11,7 +11,7 @@ and customers with high available credit.
 -- Calculate utilization rate for all customers
 
 SELECT
-    customer_id,
+    cus_id,
     credit_limit,
     credit_card_balance,
     (credit_card_balance / credit_limit) * 100 AS utilization_rate

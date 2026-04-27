@@ -29,7 +29,7 @@ Analyze credit utilization rates to evaluate customer risk exposure.
 - Utilization rate for all customers
 - Identified customers with utilization ≤ 35%
 
-![Utilization Overview Output](sql/utilization_35%_results.png)
+![Utilization Overview Output](visuals/utilization_overview.png)
 
 **Insight**  
 Customers with lower utilization rates represent lower credit risk and stronger repayment capacity.

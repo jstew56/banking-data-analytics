@@ -1,61 +1,73 @@
 # Banking Data Analytics (Snowflake SQL)
 
-## Project Overview
+## 📌 Project Overview
 
-This project analyzes anonymized banking transaction and loan data using Snowflake SQL.  
+This project analyzes anonymized credit data using Snowflake SQL to evaluate customer credit behavior, utilization risk, and expansion opportunities.
 
-The objective was to simulate real-world financial analysis tasks such as customer segmentation, cash flow monitoring, and loan portfolio performance analysis.
-
----
-
-##  Business Questions Addressed
-
-- What is the average credit card balance owed by customers?
-- What does monthly cash flow look like?
-- How can customers be segmented by credit score?
-- What is the distribution of loan status and loan amounts?
-- What financial risk indicators can be identified?
+The objective was to simulate real-world financial analysis used in credit risk and portfolio management.
 
 ---
 
-## Key Analyses Performed
+# 🎯 Analysis 1: Average Credit Card Balance
 
-### 1 Data Exploration
-- Record counts
-- Date ranges
-- Transaction type distribution
+**Business Question**  
+What is the average credit card balance owed by customers?
 
-### 2 Monthly Cash Flow Analysis
-- Aggregated deposits and withdrawals
-- Calculated net cash flow using CTEs
+**Purpose**  
+Understand overall portfolio exposure and average customer debt level.
 
-### 3 Customer Credit Segmentation
-- Used CASE statements to group customers by credit score
-- Calculated average income by segment
-
-### 4 Loan Portfolio Analysis
-- Grouped loans by status
-- Calculated average loan amounts
-- Identified performance trends
+![Average Balance Output](visuals/avg_balance.png)
 
 ---
 
-## SQL Skills Demonstrated
+# 🎯 Analysis 2: Credit Utilization Overview
 
-- Aggregations (COUNT, SUM, AVG)
-- CASE statements
-- Common Table Expressions (CTEs)
-- GROUP BY & ORDER BY
-- Filtering with WHERE, BETWEEN, IN
-- Date functions (DATE_TRUNC)
-- Business-focused query structuring
+**Business Objective**  
+Analyze credit utilization rates to evaluate customer risk exposure.
+
+**What Was Calculated**
+- Utilization rate for all customers
+- Identified customers with utilization ≤ 35%
+
+![Utilization Overview Output](visuals/utilization_overview.png)
+
+**Insight**  
+Customers with lower utilization rates represent lower credit risk and stronger repayment capacity.
 
 ---
 
-## Tools Used
+# 🎯 Analysis 3: High Available Credit & Low Utilization
+
+**Business Question**  
+Which customers have more than $5,000 available credit and utilization ≤ 20%?
+
+**Purpose**
+Identify low-risk customers with strong credit capacity who may qualify for credit line increases or premium offers.
+
+![High Available Credit Output](visuals/high_available_credit.png)
+
+**Key Insight**  
+Customers with high available credit and low utilization represent high-quality expansion opportunities with minimal risk exposure.
+
+---
+
+# 🛠 SQL Skills Demonstrated
+
+- Aggregations (AVG)
+- Derived metrics (available credit & utilization rate)
+- Filtering with WHERE
+- Multi-condition logic
+- Sorting & ranking (ORDER BY, LIMIT)
+- Financial risk interpretation
+
+---
+
+# 💻 Tools Used
 
 - Snowflake
 - SQL
+- GitHub
+
 
 ---
 
